@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"3 content="ie=edge">
+    
+           <link rel="stylesheet" href="css/estilos.css">
+            <link rel="stylesheet" href="css/estilos2.css">
+        <link rel="stylesheet" href="css/navar.css">
+               
+                <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+            
+                    
+    <title></title>
+</head>    
+<body>
+
+  <!-----------Navegador---------------->
+   <header>
+    <a href="#" class="logo">OpenSoft</a>       
+     <div class="menu-toggle"></div>  
+         <nav>
+            <ul>
+             <li><a href="main.html" class="active">Home</a></li>
+             <li><a href="portafolio.html">Portafolio</a></li>
+             <li><a href="linux.html">Linux</a></li>
+             </ul>
+         </nav>
+         <div class="clearfix"></div>
+       </header>
+       
+<script 
+			      
+			  	  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>  
+			  <script type="text/javascript">
+                  $(document).ready(function(){
+                      $('.menu-toggle').click(function(){
+                          $('.menu-toggle').toggleClass('active')
+                          $('nav').toggleClass('active')
+                      })
+                  })
+    </script>
+			<!----------------------------------------------------->
+    
+             <!------------------Slider---------------------------->
+        <center>                           
+                                 <div class="container-all">
+
+        <input type="radio" id="1" name="image-slide" hidden/>
+        <input type="radio" id="2" name="image-slide" hidden/>
+        <input type="radio" id="3" name="image-slide" hidden/>
+
+        <div class="slide">
+
+            <div class="item-slide">
+                <img src="Images/linux.jpeg">
+            </div>
+
+            <div class="item-slide">
+                <img src="Images/java.jpeg">
+            </div>
+
+            <div class="item-slide">
+                <img src="Images/developer.jpg">
+            </div>
+
+        </div>
+
+        <div class="pagination">
+           
+            <label class="pagination-item" for="1">
+                <img src="Images/linux.jpeg">
+            </label>
+            
+            <label class="pagination-item" for="2">
+                <img src="Images/java.jpeg">
+            </label>
+            
+            <label class="pagination-item" for="3">
+                <img src="Images/developer.jpg">
+            </label>
+            
+        </div>
+        
+    </div><br>
+         <div class="container">
+             <h1 id="page-title">Desarrollo de  Sistemas y Diseño</h1>
+             
+             <p id="page-title2">
+                " Somos un equipo de Desarrolladores de Software, ofreciendo el mejor servicio en desarrollo  de sistemas web y escritorio. "              </p>
+             <div class="row">
+                 <div class="col-ms-12">
+                     
+                 </div>
+             </div>
+         </div>
+          </center>                          
+           <!----------------Fin Selaider---------------------->                               
+                               
+           <!----------------Footer---------------------->                               
+                               
+                                <footer>
+       <div class="container-footer-all">
+            <div class="container-body">
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+                        <img src="icon/facebook.png">
+                        <a href="https://web.facebook.com/desarroladoresWebPeruCR/"> <label>Siguenos en Facebook</label></a>
+                        
+                    </div>
+                    <div class="row">
+                        <img src="icon/twitter.png">
+                        <label>Siguenos en Twitter</label>
+                    </div>
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Informacion Contactos</h1>
+
+                  
+                    <div class="row2">
+                        <img src="icon/smartphone.png">
+                        <label>+51-910-644-386</label><br>
+                        <label>+506-600-701-10</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="icon/contact.png">
+                         <label>OpenSoft@yandex.com</label>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2019 Todos los Derechos Reservados | <a href="">OpenSoft</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Informacion </a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>
+        
+    </footer>
+             <!----------------Fin Foooter---------------------->                               
+</body>
+</html>
